@@ -1,0 +1,14 @@
+# ~/.config/sway/config
+include ~/.config/sway/config.d/variables.conf
+include ~/.config/sway/config.d/appearance.conf
+include ~/.config/sway/config.d/input.conf
+include ~/.config/sway/config.d/keys.conf
+include ~/.config/sway/config.d/workspaces.conf
+include ~/.config/sway/config.d/layout.conf
+include ~/.config/sway/config.d/scratchpad.conf
+include ~/.config/sway/config.d/resize.conf
+
+include @sysconfdir@/sway/config.d/*
+
+exec_always autotiling -w 1 3 5 7 9
+
